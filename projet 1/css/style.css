@@ -1,0 +1,170 @@
+body {
+  font-size: 18px;
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+p {
+  margin: 0;
+  font-size: 11px;
+  color: hsl(241, 100%, 89%);
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+.grid-container {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 10%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid {
+  flex: 1;
+  height: 250px;
+  width: 200px;
+}
+
+.result {
+  font-weight: 500;
+  padding: 20px;
+  color: hsl(241, 100%, 89%);
+
+}
+
+.col-1 {
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  border-radius: 25px;
+  background-image: linear-gradient(hsl(241, 81%, 54%), hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.resultnum {
+  font-weight: 800;
+  height: 100px;
+  width: 100px;
+  background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.resultgreat {
+  font-weight: 700;
+  padding: 15px;
+}
+
+.resultprg {
+  font-weight: 500;
+  font-size: 11px;
+  color: hsl(241, 100%, 89%);
+  padding: 10px, 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.summary {
+  font-weight: 700;
+  padding: 8px 3px 15px;
+  text-align: left;
+}
+
+.col-2.grid {
+  font-weight: 700;
+  text-align: center;
+  border-radius: 25px;
+  padding-left: 20px;
+}
+
+.summary {
+  padding: 8px 3px 15px;
+  text-align: left;
+}
+img{
+  width: 15px;
+  margin-top: 6px;
+  margin-right: 4px;
+}
+.col2inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+}
+
+.col2but {
+  margin-bottom: 9px;
+}
+
+.value {
+  color: hsl(224, 30%, 20%);
+  padding-left: 30px;
+}
+
+.alphabet {
+  padding-left: 5px;
+  color: hsl(224, 30%, 40%);
+}
+.button {
+  border-radius: 20px;
+  background-color: hsl(234, 85%, 45%);
+  color: white;
+  width: 250px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: hsl(0, 0%, 18%);
+}
+
+.reaction {
+  border-radius: 10px;
+  background: hsl(0, 100%, 95%);
+  width: 250px;
+  height: 35px;
+  color: hsl(0, 100%, 67%);
+}
+
+.memory {
+  border-radius: 10px;
+  background: hsl(39, 100%, 95%);
+  width: 250px;
+  height: 35px;
+  color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+  border-radius: 10px;
+  background: hsl(166, 100%, 96%);
+  width: 250px;
+  height: 35px;
+  color: hsl(166, 100%, 37%);
+}
+
+.visual {
+  border-radius: 10px;
+  background: hsl(234, 85%, 95%);
+  width: 250px;
+  height: 35px;
+  color: hsl(234, 85%, 45%);
+}
+@media (max-width: 800px) {
+  .grid-container {
+    padding: 0;
+  }
+
+  .grid {
+    flex-basis: 100%;
+  }
+}
+
+.attribution {
+  padding-top: 5px;
+  text-align: center;
+  font-size: 11px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
